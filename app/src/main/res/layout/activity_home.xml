@@ -26,5 +26,8 @@
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:hint="masukkan nama..." />
+        android:background="@drawable/box_border"
+        android:padding="10dp"
+        android:hint="masukkan nama..."
+        android:inputType="textPersonName" />
 </RelativeLayout>
