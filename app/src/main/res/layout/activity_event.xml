@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="suitmedia.com.testscreeningbayuwpp.EventActivity">
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/event"
+        android:textAlignment="center"
+        android:background="@color/gray"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:textSize="23sp"
+        android:layout_marginBottom="10dp"
+        />
     <android.support.v7.widget.RecyclerView
         android:id="@+id/event_recyclerview_eventlist"
         android:layout_width="match_parent"
